@@ -1,0 +1,17 @@
+EC2
+Key Pairs
+Create key pair 
+enter name and select ppk(for use with putty)
+A .ppk file will automatically download to the download directory 
+move the file to the a permanent and safe folder
+click SSH then Auth
+select .ppk file in the PRIVATE KEY FILE FOR AUTHENTICATION: box
+Name the session and save it. When you log on to the EC2 instance
+use this session and you will not have to enter a user/pw
+
+
+NOTE: After creating the EMR instance, update the security group to allow for SSH
+Type	Protocol	Port range	Source
+SSH		TCP			22			0.0.0.0/0
+Launch Putty
+
